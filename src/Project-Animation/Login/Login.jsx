@@ -49,7 +49,7 @@ const Login = () => {
       setIsLoading(true);
       
       try {
-        const response = await axios.post('https://astroflow-vty2.onrender.com/api/login', {
+        const response = await axios.post('https://astrof.onrender.com/api/login', {
           fullName: formData.fullName,
           email: formData.email
         });
