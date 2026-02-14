@@ -53,7 +53,7 @@ const Sign = () => {
       setIsLoading(true);
       
       try {
-        const response = await axios.post('https://astroflow-vty2.onrender.com/api/signup', {
+        const response = await axios.post('https://astrof.onrender.com/api/signup', {
           fullName: formData.fullName,
           email: formData.email
         });
