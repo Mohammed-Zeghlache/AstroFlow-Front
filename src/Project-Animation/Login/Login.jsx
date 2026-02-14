@@ -49,7 +49,7 @@ const Login = () => {
       setIsLoading(true);
       
       try {
-        const response = await axios.post('http://localhost:10000/api/login', {
+        const response = await axios.post('https://astroflow-api.onrender.com/api/login', {
           fullName: formData.fullName,
           email: formData.email
         });
