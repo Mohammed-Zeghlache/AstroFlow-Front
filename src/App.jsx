@@ -10,8 +10,8 @@ function App() {
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Sign />} />
-        <Route path="/" element={<Navigate to="/login" replace />} />
+        <Route path="/" element={<Sign />} />
+        {/* <Route path="/" element={<Navigate to="/login" replace />} /> */}
       </Routes>
     </Router>
   );
