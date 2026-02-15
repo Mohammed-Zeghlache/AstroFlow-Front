@@ -180,7 +180,7 @@ const Login = () => {
               <span className="divider-star">✦</span>
             </div>
             
-            <Link to="/signup" className="galaxy-link">
+            <Link to="/" className="galaxy-link">
               New to StarForge? 
               <span className="link-text"> Create account</span>
               <span className="link-icon">→</span>
